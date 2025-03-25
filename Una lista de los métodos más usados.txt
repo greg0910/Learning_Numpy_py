@@ -1,0 +1,42 @@
+Una lista de los métodos más usados en numpy según lo que se desee hacer:
+
+Creación de arrays:
+
+np.array(): Crea un array a partir de una lista o tupla
+np.zeros(): Crea un array lleno de ceros
+np.ones(): Crea un array lleno de unos
+np.arange(): Crea un array con una secuencia de números
+np.linspace(): Crea un array con números igualmente espaciados
+
+Manipulación de arrays:
+
+reshape(): Cambia la forma de un array
+flatten(): Convierte un array multidimensional en unidimensional
+transpose(): Transpone un array
+concatenate(): Concatena arrays
+
+Operaciones matemáticas:
+
+np.sum(): Suma los elementos de un array
+np.mean(): Calcula la media de los elementos de un array
+np.max(), np.min(): Encuentra el valor máximo y mínimo
+np.dot(): Realiza el producto punto entre arrays
+
+Álgebra lineal:
+
+np.linalg.inv(): Calcula la inversa de una matriz
+np.linalg.det(): Calcula el determinante de una matriz
+np.linalg.eig(): Calcula los valores y vectores propios
+np.linalg.solve(): Resuelve sistemas de ecuaciones lineales
+
+Indexación y slicing:
+
+array[index]: Accede a elementos específicos
+array[start:end:step]: Extrae subarrays
+np.where(): Encuentra índices que cumplen una condición
+
+Funciones universales (ufuncs):
+
+np.exp(), np.log(): Funciones exponencial y logarítmica
+np.sin(), np.cos(): Funciones trigonométricas
+np.sqrt(): Raíz cuadrada
